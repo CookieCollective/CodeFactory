@@ -1,0 +1,19 @@
+{
+  "name": "CodeFactory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "server": "http-server ./web",
+    "watch": "chokidar-socket-emitter -p web",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run watch\""
+  },
+  "author": "Leon Denise",
+  "license": "Hippie Love Conspiracy",
+  "dependencies": {
+    "chokidar": "^3.3.0",
+    "concurrently": "^4.1.2",
+    "socket.io-client": "^2.3.0",
+    "tiny-sdf": "^1.0.2"
+  }
+}

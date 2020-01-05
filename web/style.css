@@ -1,0 +1,47 @@
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+body {
+  background: #333;
+	color: #333;
+  height: 100vh;
+}
+
+canvas {
+  display: inline-block;
+	width: 50%;
+  float: right;
+  height: 100%;
+}
+
+textarea {
+  width: 50%;
+  height: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.text-input {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+
+.button-input {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
